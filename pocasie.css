@@ -1,0 +1,30 @@
+
+.weather-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.weather-info {
+    margin-bottom: 50px;
+}
+
+.weather-info p {
+    text-align: center;
+    margin: 5px 0;
+    color: #ffffff; 
+    font-size: 1.2em;
+    
+}
+
+.weather-info p:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff; /
+}
+
+
+
+

@@ -1,0 +1,206 @@
+
+
+
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,500;1,700&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto Ružomberok</title>
+    <link rel="stylesheet" href="styles.css ">
+    <link rel="stylesheet" href="pocasie.css">
+    <script src="pocasie.js"></script>
+</head>
+<body>
+    
+    <div class="navigacnypanel">
+        <div class="navpanel">
+            <img src="obrazky/rklogo.png" alt="logo">
+            <ul>
+
+                <li><a href="#historia">História Ružomberka</a></li>
+                <li><a href="#prostredie">Životné prostredie a výstavba</a></li>
+                <li><a href="#volnycas">Voľný čas</a></li>
+                <li><a href="#primator">Primátor</a></li>
+                <li><a href="mapy.html">Poloha mesta</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        
+        <div class="nadpis">
+            <h2 data-text="RUŽOMBEROK">RUŽOMBEROK</h2>
+            
+            
+        <div class="weather-panel">
+            
+            <div class="weather-info" id="weather-info"></div>
+        </div>
+
+            <div>
+                <form action="https://www.ruzomberok.sk/" method="GET" target="_blank">
+                    <button type="submit">Stránky mesta Ružomberok<span></span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <main>
+        
+
+        <section class="news">
+            <div class="card">
+                <div class="card-header">
+                    <a href="https://www.ruzomberok.sk/tlacova-sprava--ruzomberok-bude-v-roku-2024-hospodarit-s-vyrovnanym-rozpoctom-oznam/mid/491907/.html#m_491907" target="_blank">
+                        <img src="obrazky/uvodnafotkark.png" alt="news-image" id="news-img">
+                    </a>
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Tlačová správa: Ružomberok bude v roku 2024 hospodáriť s vyrovnaným rozpočtom</h3>
+                    <h6 class="news-source" id="news-source">Zverejnené 13.12.2023</h6>
+                    <p class="news-desc" id="news-desc">Mestské zastupiteľstvo ako reakciu na ekonomickú situáciu zvýšilo miestne dane a poplatky.</p>
+                </div>
+            </div>
+                </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a href="https://www.ruzomberok.sk/top-dievca-okresu-ruzomberok-oznam/mid/491907/.html#m_491907" target="_blank">
+                        <img src="obrazky/topdievca.png" alt="news-image" id="news-img">
+                    </a>
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">TOP DIEVČA OKRESU RUŽOMBEROK</h3>
+                    <h6 class="news-source" id="news-source">Zverejnené 13.12.2023</h6>
+                    <p class="news-desc" id="news-desc">Centrum voľného času Elán organizuje 1. ročník súťaže TOP DIEVČA okresu Ružomberok.</p>
+                </div>
+            </div> 
+            
+            <div class="card">
+                 <div class="card-header">
+                    <a href="https://www.ruzomberok.sk/tlacova-sprava--ruzomberok-caka-posledne-tohorocne-zasadnutie-mestskeho-parlamentu-oznam/mid/491907/.html#m_491907" target="_blank">
+                        <img src="obrazky/uvodnafotkark.png" alt="news-image" id="news-img">
+                    </a>
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Tlačová správa: Ružomberok čaká posledné tohoročné zasadnutie mestského parlamentu</h3>
+                    <h6 class="news-source" id="news-source">Zverejnené 12.12.2023</h6>
+                    <p class="news-desc" id="news-desc">Poslanci budú okrem rozpočtu mesta rozhodovať aj o zmene zriaďovateľa informačného centra.</p>
+                </div>
+            </div>
+        </div>       
+    
+        
+        <!-- Obsah hlavného obsahu stránky -->
+        <section class="primator">
+            <h1 class="posunutieDolava" id="primator">Primátor mesta</h1>
+        
+            
+            <div class="obdlznikprimator">
+                <img src="obrazky/priamtor.png">
+                <div>
+                    <h3>JUDr. Ľubomír Kubáň</h3>
+                        <p>Vek: 43 <br>
+                        Tel.: 044 / 431 44 23<br> 
+                        Mobil: + 421 905 202 840<br> 
+                        E-mail: primator@ruzomberok.sk</p> 
+                </div>
+            </div>
+             
+        </section>
+</section>
+
+<section class="rk">
+    <p>Poloha okresného mesta Ružomberok na východnom úpätí Veľkej Fatry, severozápadných úbočiach Nízkych 
+    Tatier a neďaleko juhozápadných svahov Chočských vrchov vytvára neopakovateľnú siluetu mesta z troch 
+    strán obkoleseného horami a len z východnej strany otvoreného do Liptovskej kotliny. Ružomberok leží 27 
+    km západne od Liptovského Mikuláša, 18 km južne od Dolného Kubína, 52 km severne od Banskej Bystrice a 62 
+    km východne od Žiliny. Mestom vedie železničná trať Žilina – Košice a cesty I/18 a I/59.
+    <br><br>    
+    Mesto Ružomberok (30 200 obyvateľov) je dnes centrom dolného Liptova, ktorý tvorí najzápadnejšiu časť 
+    Liptovskej kotliny. Je najvýznamnejším strediskom papierenského priemyslu na Slovensku a jedným z 
+    najvýznamnejších slovenských stredísk cestovného ruchu.</p>
+</section>
+
+<section class="rk">
+    <h3 id="historia">História Ružomberka</h3>
+    <p>Skutočnosť, že mesto leží na križovatke starej obchodnej cesty vedúcej zo stredoslovenských 
+        banských miest do Poľska a považskej cesty z Košíc cez Spiš do Žiliny a odtiaľ do Sliezska, 
+        predurčila jeho hospodársky a kultúrny rozvoj. V histórii ružomberskej remeselnej výroby 
+        zohrala najvýznamnejšiu úlohu výroba papiera, ktorá je dodnes symbolom mesta 🏭.
+       
+    <h4>Vznik mesta</h4>  
+        Už pred dvetisíc rokmi bolo územie dnešného Ružomberka a jeho okolia osídlené – boli tu 
+        objavené dve menšie praveké opevnené sídla púchovskej kultúry. Mesto sa vyvinulo zo slovanskej 
+        hradištnej osady, ktorej prvá písomná zmienka pochádza z roku 1233. V 13. storočí tu medzi 
+        riekou Revúca a potokom Štiavnica existovala slovanská osada, ktorá sa stala základom 
+        neskoršieho mesta. Historici predpokladajú, že terajšie Námestie Andreja Hlinku bolo tým 
+        mestom Rosenberg, ktoré obývali nemeckí novousadlíci a pričinili sa o to, aby dostali mestské 
+        výsady. Tie boli udelené mestu v roku 1318 z poverenia magistra Donča, zvolenského župana. 
+        V roku 1340 kráľ Karol Róbert z Anjou výsady mestu potvrdil. Súčasťou výsad bolo aj vymedzenie 
+        hraníc mestského chotára, v tom čase jedného z najväčších na Slovensku, v ktorom sa vytvorili 
+        tzv. ulice mesta – Biely Potok, Vlkolínec, Černová a Villa Ludrová. Rozvoj mesta sa zastavil 
+        v roku 1390, kedy kráľ Žigmund Luxemburský dal Ružomberok likavskému panstvu. Štatút poddaného 
+        mestečka neprial rozvoju mesta, ale napriek tomu sa mesto hlavne vďaka významnej križovatke 
+        soľných ciest, na ktorej leží, vyvíjalo v prirodzené obchodno-trhovo-remeselnícke centrum.
+    </p>
+</section>
+
+<section class="rk">
+    <h3>Pamiatky</h3>
+    <p>Prehliadku mesta je najvhodnejšie začať na Námestí A. Hlinku, na mieste, kde 
+        sa v dávnej minulosti usadili nemeckí osadníci a nazývali ho Rosenberg. K 
+        najvzácnejším pamiatkam námestia patrí rímskokatolícky Kostol sv. Ondreja.
+        <br><br>
+        Svetskou dominantou námestia je vedľa kostola stojaca radnica. V jej južnej 
+        časti sa kedysi nachádzala rímskokatolícka fara, v ktorej pôsobil A. Hlinka. 
+        Pamiatkou na jeho život a pôsobenie v meste je mauzóleum Andreja Hlinku 
+        nachádzajúce sa pod južnou loďou Kostola sv. Ondreja. Nad Námestím A. Hlinku 
+        sa nachádza pozoruhodná architektonická pamiatka - kalvária. Je jedinou 
+        liptovskou kalváriou.</p>
+</section>
+
+<section class="rk">
+    <h3 id="volnycas">Voľný čas</h3>
+    <p>Ružomberok je známy svojím bohatým voľnočasovým ponúkaním. Okrem kultúrnych 
+        podujatí, ktoré sa konajú počas celého roku, ponúka mesto aj mnoho 
+        príležitostí na aktívny oddych a rekreáciu. Mesto sa nachádza v nádhernom 
+        prírodnom prostredí, a preto sú outdoorové aktivity veľmi obľúbené. Turisti 
+        a obyvatelia môžu využiť možnosti turistiky, cyklistiky, vodných športov a 
+        zimnej rekreácie. Okolie mesta je obklopené Nízkymi Tatrami, ktoré sú 
+        ideálnym miestom na lyžovanie a snowboarding v zime a turistiku v lete. 
+        Ružomberok je tiež domovom niekoľkých športových klubov a lyžiarskeho 
+        strediska Malinô Brdo, ktoré priláka nadšencov zimných športov.</p>
+</section>
+
+<section class="malino">
+    <img src="obrazky/malino.jpg">
+</section>
+
+<section class="rk">
+    <h2 id="prostredie">Životné prostredie a výstavba</h2>
+    <p>Mesto Ružomberok sa nachádza v krásnom prírodnom prostredí a je obklopené zelenými lúkami a lesov. Mesto si uvedomuje dôležitosť ochrany životného prostredia a udržateľného rozvoja. Preto boli vykonané stavebné projekty, ktoré zahŕňajú modernizáciu verejných dopravných sietí a inú infraštruktúru, čo prispieva k rozvoju mesta. Existujú aj iniciatívy na zlepšenie kvality ovzdušia a recykláciu odpadu. Vzhľadom na svoju polohu medzi horami a riekou Váh, mesto má jedinečné príležitosti na využitie obnoviteľných zdrojov energie.</p>
+    
+</section>
+</main>
+    
+    
+    <footer>
+        <div class="footer-inner">
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/mesto.ruzomberok/?locale=sk_SK"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/mfk_ruzomberok/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/MestoRuzomberok"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCamZUXMdY-jvBqs3n5OIamg/featured"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+            
+            <p>&copy; 2023 Sebastián Šatan</p>
+        </div>
+    </footer>
+</body>
+</html>
